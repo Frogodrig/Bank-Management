@@ -1,2 +1,3 @@
 # Bank-Management
-Bank Management command line interface program made using the concept of OOPS and SQL.
+A command line interface program made in python using the concepts of OOPS and SQL.
+Read the SQLprerequisites text file before executing the program.
