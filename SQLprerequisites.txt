@@ -1,0 +1,18 @@
+RUN THE BELOW CODE IN SQL FOR THE BANK MANAGEMENT TO PROPERLY WORK : 
+
+create database bankdb2;
+
+use bankdb2;
+
+create table savingsacc(naam varchar(30),accno varchar(20),passwd varchar(30),address varchar(50),acctype varchar(10),cash int(20));
+
+create table currentacc(naam varchar(30),accno varchar(20),passwd varchar(30),address varchar(50),acctype varchar(10),cash int(20));
+
+create table closedacc(naam varchar(30),accno varchar(20),address varchar(50),acctype varchar(10),closedate varchar(20));
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+IN THE PYTHON PROGRAM:
+
+Change the values of user and password parameters according to your SQL account
+----------------------------------------------------------------------------------------------------------------------------------------
